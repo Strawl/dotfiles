@@ -1,0 +1,33 @@
+{
+    "coc.preferences.formatOnSaveFiletypes": [
+        "css",
+        "markdown",
+        "javascript",
+        "graphql",
+        "html",
+        "yaml",
+        "json",
+        "python",
+        "java",
+        "xml:::",
+        "tex"
+    ],
+    // python config
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "suggest.noselect": false,
+    "snippets.ultisnips.directories": [
+        "UltiSnips",
+        "~/.config/nvim/utils/snips"
+    ],
+    "snippets.extends": {
+        "latex": [
+            "tex",
+            "texmath"
+        ]
+    },
+    "snippets.triggerCharacters": [
+        "=",
+        ">"
+    ]
+}
